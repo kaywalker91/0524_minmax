@@ -1,0 +1,167 @@
+@charset "uft-8";
+/* 문서에 최상단에 위치하게 할것 */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* 패딩이나 마진을 키우더라도 박스크기가 커지는 걸 막을 수 있다 */
+}
+
+body
+{
+    color: #333;
+}
+
+a
+{
+    text-decoration: none;
+    color: #333;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+/* CSS reset */
+
+header
+{
+    border-bottom: 1px solid #dadada;
+    background-color: white;
+    height: 71px;
+    width: 100%;
+    position: fixed;
+    z-index: 20000;
+}
+
+
+#logo
+{
+    float: left;
+    margin-top: 12px;
+    margin-right: 40px;
+}
+
+#lnb
+{
+    float: left;
+    overflow: hidden;
+    height: 70px;
+}
+
+.main
+{
+    float: left;
+}
+
+.main>a
+{
+    height: 70px;
+    text-align: left;
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: -0.04em;
+    line-height: 70px;
+    padding-right: 55px;
+}
+
+.main:hover
+{
+    cursor: pointer;
+}
+
+.sub
+{
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.sub a
+{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    letter-spacing: -0.04em;
+}
+
+#backBlack
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    opacity: 0.5;
+    display: none;
+}
+
+#backWhite
+{
+    position: fixed;
+    width: 100%;
+    height: 315px;
+    background-color: white;
+    top: 71px;
+    display: none;
+}
+
+#gnb
+{
+    float: left;
+}
+
+#gnb a
+{
+    color: #555;
+    font-size: 0.7em;
+    letter-spacing: -0.09em;
+    height: 70px;
+    display: inline-block;
+    padding: 0px 14px;
+    line-height: 70px;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+.cen
+{
+    max-width: 1180px;
+    width: 100%;
+    margin: auto;
+}
+
+#cat
+{
+    width: 100%;
+    max-width: 1000px;
+    min-width: 600px;
+    margin: auto;
+    display: block;
+}
+
+#box1
+{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+#searchbtn
+{
+    width: 72px;
+    height: 70px;
+    border-radius: 0;
+    border: none;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    background-color:transparent;
+    cursor: pointer;
+}
